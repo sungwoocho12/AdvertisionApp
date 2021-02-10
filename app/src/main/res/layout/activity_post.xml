@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+
+
+    <ImageButton
+        android:id="@+id/post_Image"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_focused" />
+
+    <EditText
+        android:id="@+id/post_Title"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        android:hint="Post Title"
+        android:ems="20"/>
+    <EditText
+        android:id="@+id/post_Description"
+        android:inputType="textMultiLine"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        android:hint="Post Description..."
+        android:ems="20"/>
+
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/postProgressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/post_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게시하기"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+
+        android:background="@color/design_default_color_primary"/>
+</LinearLayout>

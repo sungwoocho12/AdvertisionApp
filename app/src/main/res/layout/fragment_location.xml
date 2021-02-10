@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentLocation">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/unnamed"/>
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/maps"
+         android:layout_margin="10dp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/mapimage"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="위치 : 서울시 구로구 구로디지털단지 3로 13-2 번지 10층"/>
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전화번호 : 02 - 111 - 2222"/>
+
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fax : 02 - 111- 2223"/>
+
+
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메일 : TheBetter@tjoeungr.step.or.kr"/>
+
+
+
+</LinearLayout>

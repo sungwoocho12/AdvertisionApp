@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/userIcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/usericon"
+        android:layout_marginBottom="10dp"/>
+
+
+    <EditText
+
+        android:id="@+id/userName"
+        android:layout_marginTop="100dp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="  NAME"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        />
+
+
+
+    <EditText
+
+        android:id="@+id/userEmail"
+        android:layout_margin="5dp"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="  ID"
+        android:ems="10"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        />
+
+
+    <EditText
+
+        android:id="@+id/userPassword"
+        android:layout_margin="5dp"
+        android:inputType="textWebPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="  password"
+        android:ems="10"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        />
+
+
+    <EditText
+        android:id="@+id/userPassword2"
+        android:layout_margin="5dp"
+        android:inputType="textWebPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="  Password Check"
+        android:ems="10"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        />
+
+    <Button
+
+        android:id="@+id/createAccountBtn"
+        android:background="@drawable/reg_btn_style"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#5BEC61"
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:onClick="mOnclick"/>
+
+    <ProgressBar
+        android:id="@+id/regProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
